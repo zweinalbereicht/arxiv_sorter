@@ -1,5 +1,4 @@
 from __future__ import print_function
-from base64 import b64decode
 
 import os.path
 
@@ -11,6 +10,11 @@ from googleapiclient.errors import HttpError
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
+
+
+#my own imports for string parsing
+import re
+from base64 import b64decode
 
 
 def retrieve_unread_arxiv_email(service):
@@ -33,6 +37,32 @@ def get_email_contents(service, message):
     message_text = results['payload']['parts'][0]['body']['data']
     message_text = b64decode(message_text).decode("utf-8")
     return message_text
+
+def extract_title(string):
+    match = re.search('Title: (.*)(Authors)',string,re.DOTALL) 
+    if match:
+        return match.group(1)
+    else:
+        return None
+
+def extract_authors(string):
+    match = re.search('Authors: (.*)(Cat)',string,re.DOTALL) 
+    if match:
+        return match.group(1)
+    else:
+        return None
+
+def parse_email_content(contents):
+    print(contents[:5000])
+    print('AAAAAAAAAAAAAA')
+    arxiv_id = re.findall(r'^arXiv:[0-9]{4}.*\n',contents, flags=re.M)
+    contents = re.split(r'^arXiv:[0-9]{4}.*\n',contents, flags=re.M)[1:]
+    print(len(arxiv_id),len(contents))
+    titles = [extract_title(c) for c in contents]
+    authors = [extract_authors(c) for c in contents]
+    return (arxiv_id, titles, authors, contents)
+
+
     
 
 def main():
@@ -61,8 +91,17 @@ def main():
 
     try:
         messages = retrieve_unread_arxiv_email(service)
-        for m in messages:
-            print(get_email_contents(service, m))
+        for m in messages[:-1]:
+            contents = get_email_contents(service, m)
+            id, title, authors, publication = parse_email_content(contents)
+            for i,t,a in zip(id,title,authors):
+                print(i,t, a)
+                ## TODO (implement selection of emails upon selection rules)
+                ## TODO (make new list of emails)
+                ## TODO (send new email)
+                ## TODO (delete email)
+
+
 
     except HttpError as error:
         # TODO(developer) - Handle errors from gmail API.
