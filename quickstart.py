@@ -15,6 +15,7 @@ SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 #my own imports for string parsing
 import re
 from base64 import b64decode
+import toml
 
 
 def retrieve_unread_arxiv_email(service):
@@ -43,6 +44,7 @@ def extract_title(string):
     if match:
         return match.group(1)
     else:
+        print(string)
         return None
 
 def extract_authors(string):
@@ -52,15 +54,28 @@ def extract_authors(string):
     else:
         return None
 
+class arxiv_article:
+    def __init__(self, id, t,a,c):
+        self.id=id
+        self.title = t
+        self.authors=a
+        self.contents=c
+
+    # says if an email is relevant
+    def is_relevant(self, dic):
+        title_match = any([not (re.search(w,self.title,re.IGNORECASE)==None) for w in dic['selection']['titles']])
+        authors_match = any([not (re.search(w,self.authors,re.IGNORECASE)==None) for w in dic['selection']['authors']])
+        return title_match or authors_match
+
+
 def parse_email_content(contents):
-    print(contents[:5000])
-    print('AAAAAAAAAAAAAA')
-    arxiv_id = re.findall(r'^arXiv:[0-9]{4}.*\n',contents, flags=re.M)
-    contents = re.split(r'^arXiv:[0-9]{4}.*\n',contents, flags=re.M)[1:]
-    print(len(arxiv_id),len(contents))
+    arxiv_id = re.findall(r'^\\\\\r\narXiv:[0-9]{4}.*$',contents, flags=re.M)
+    contents = re.split(r'^\\\\\r\narXiv:[0-9]{4}.*$',contents, flags=re.M)[1:]
     titles = [extract_title(c) for c in contents]
     authors = [extract_authors(c) for c in contents]
-    return (arxiv_id, titles, authors, contents)
+    arxiv_articles=[arxiv_article(id,t,a,c) for id,t,a,c in zip(arxiv_id,titles,authors,contents)]
+    return arxiv_articles
+
 
 
     
@@ -90,14 +105,26 @@ def main():
     service = build('gmail', 'v1', credentials=creds)
 
     try:
+        # load toml setup file
+        parsed_toml = toml.load('sorter.toml')
+
+        # trat email
         messages = retrieve_unread_arxiv_email(service)
         for m in messages[:-1]:
             contents = get_email_contents(service, m)
-            id, title, authors, publication = parse_email_content(contents)
-            for i,t,a in zip(id,title,authors):
-                print(i,t, a)
-                ## TODO (implement selection of emails upon selection rules)
-                ## TODO (make new list of emails)
+
+            arxiv_articles = parse_email_content(contents)
+            print(len(arxiv_articles))
+            relevant_articles=[]
+            # sort the relevant ones
+            for article in arxiv_articles:
+                if article.is_relevant(parsed_toml):
+                    relevant_articles.append(article)
+
+            # print the selected emails
+            for article in relevant_articles:
+                print(article.id)
+                print(article.contents)
                 ## TODO (send new email)
                 ## TODO (delete email)
 

@@ -1,0 +1,928 @@
+---------- Forwarded message ---------
+De : send mail ONLY to physics <no-reply@arxiv.org>
+Date: mar. 26 juil. 2022 à 05:14
+Subject: physics daily Subj-class mailing 1000000000000 1
+To: physics daily title/abstract distribution <rabble@arxiv.org>
+
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+Send any comments regarding submissions directly to submitter.
+------------------------------------------------------------------------------
+Archives at http://arxiv.org/
+To unsubscribe, e-mail To: physics@arXiv.org, Subject: cancel
+------------------------------------------------------------------------------
+ Submissions to:
+Statistical Mechanics
+ received from  Fri 22 Jul 22 18:00:00 GMT  to  Mon 25 Jul 22 18:00:00 GMT
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+\\
+arXiv:2207.11302
+Date: Fri, 22 Jul 2022 19:15:47 GMT   (77kb)
+
+Title: Diagrammatics for the Inverse Problem in Spin Systems and Simple
+Liquids
+Authors: Tobias K\"uhn and Fr\'ed\'eric van Wijland
+Categories: cond-mat.stat-mech cond-mat.dis-nn cond-mat.soft
+Comments: 32 pages, 3 figures
+\\
+  Given data for which averages and correlations are known, we ask what the
+values are of the parameters of a given model and the resulting entropy
+consistent with these data. Of course, in general, no exact calculation
+directly from the model is available. A particular situation is that of a
+model
+characterized by continuous degrees of freedom and a polynomial probability
+weight. Indeed perturbation expansions around a Gaussian have been
+implemented
+in the last 60 years. However, there are models for which the exactly
+solvable
+part is non-Gaussian, such as independent Ising spins in a field, or an
+ideal
+gas of particles. We implement a diagrammatic perturbative scheme in weak
+correlations around a non-Gaussian yet solvable probability weight. This
+applies in particular to spin models (Ising, Potts, Heisenberg) with weak
+couplings, or to a simple liquid with a weak interaction potential. Our
+method
+casts systems with discrete degrees of freedom and those with continuous
+ones
+within the same theoretical framework that reduces to the well-known Feynman
+diagrammatics when the core theory is Gaussian.
+\\ ( https://arxiv.org/abs/2207.11302 ,  77kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.11421
+Date: Sat, 23 Jul 2022 05:41:54 GMT   (53kb,D)
+
+Title: Residual Entropy of Glasses and the Expression of the Third-Law
+  Expression
+Authors: Koun Shirai
+Categories: cond-mat.stat-mech physics.class-ph
+\\
+  The third law of thermodynamics dictates that the entropy of materials
+becomes zero as temperature ($T$) approaches zero. Contrarily, glass and
+other
+similar materials exhibit nonzero entropy at $T=0$, which contradicts the
+third
+law. For over a century, it has been a common practice to evade this
+problem by
+regarding glass as nonequilibrium. However, this treatment causes many
+inconsistencies in thermodynamics theory. This paper provides resolutions to
+these inconsistencies and provides a rigorous expression of the third law
+without any exception. To seek the entropy origin, the anthropomorphic
+feature
+of entropy must be resolved. Because entropy can be uniquely determined only
+when thermodynamic coordinates (TCs) are specified, we have to know which
+are
+TCs. This requires the reconsideration of the definition of equilibrium for
+solids in an unambiguous way, which does not depend on the solid structure.
+On
+this basis, it is deduced that TCs of solids are the equilibrium positions
+of
+atoms. TCs comprise a thermodynamic space, on which a unique value can be
+assigned to the entropy. For solids, equilibrium states are specified by
+discrete points in the thermodynamic space, which define atom
+configurations.
+Among various atom configurations, only one is thermally activated at
+sufficiently low temperatures, and others are called frozen configuration,
+which do not contribute to the temperature dependence of entropy in that
+region. The rigorous statement of the third law has been established by
+expressing that the entropy associated with the active configuration
+vanishes
+at $T=0$. Residual entropy arises when the entropy is evaluated on an
+extended
+space including the frozen configurations, which were previously active at
+high
+temperatures. The reconciliation of the two different views is explained
+through several debates on the glass transition.
+\\ ( https://arxiv.org/abs/2207.11421 ,  53kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.11751
+Date: Sun, 24 Jul 2022 14:20:21 GMT   (6659kb)
+
+Title: Microreversibility, fluctuation relations, and response properties
+in 1D
+  Kitaev Chain
+Authors: Fan Zhang, Jiayin Gu, and H. T. Quan
+Categories: cond-mat.stat-mech
+Comments: 14 pages, 7 figures. Comments and suggestions are welcomed
+\\
+  We analytically calculate the cumulant generating function of energy and
+particle transport in an open 1D Kitaev chain by utilizing the Keldysh
+technique. The joint distribution of particle and energy currents obeys
+different fluctuation relations in different regions of the parameter space
+as
+a result of $U$(1) symmetry breaking and energy conservation. We discuss the
+thermoelectricity of the Kitaev chain as a three terminal system and derive
+an
+analytical expression of the maximum work power. The response theory up to
+the
+second order is explicitly checked, and the result is consistent with the
+relations derived from the fluctuation relation.
+\\ ( https://arxiv.org/abs/2207.11751 ,  6659kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.11798
+Date: Sun, 24 Jul 2022 19:38:47 GMT   (518kb,D)
+
+Title: Contact process with simultaneous spatial and temporal disorder
+Authors: Xuecheng Ye and Thomas Vojta
+Categories: cond-mat.stat-mech
+Comments: 13 pages, 14 figures included
+\\
+  We study the absorbing-state phase transition in the one-dimensional
+contact
+process under the combined influence of spatial and temporal random
+disorders.
+We focus on situations in which the spatial and temporal disorders decouple.
+Couched in the language of epidemic spreading, this means that some spatial
+regions are, at all times, more favorable than others for infections, and
+some
+time periods are more favorable than others independent of spatial
+location. We
+employ a generalized Harris criterion to discuss the stability of the
+directed
+percolation universality class against such disorder. We then perform
+large-scale Monte Carlo simulations to analyze the critical behavior in
+detail.
+We also discuss how the Griffiths singularities that accompany the
+nonequilibrium phase transition are affected by the simultaneous presence of
+both disorders.
+\\ ( https://arxiv.org/abs/2207.11798 ,  518kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.11943
+Date: Mon, 25 Jul 2022 07:19:01 GMT   (539kb)
+
+Title: Insight into ground-state spin arrangement and bipartite
+entanglement of
+  the polymeric coordination compound [Dy$_2$Cu$_2$]$_n$ through the
+symmetric
+  spin-1/2 Ising-Heisenberg orthogonal-dimer chain
+Authors: Lucia G\'alisov\'a
+Categories: cond-mat.stat-mech
+Comments: 9 pages, 5 figures, to be published in JMMM
+\\
+  The ground-state spin arrangement and the bipartite entanglement within
+Cu$^{2+}$-Cu$^{2+}$ dimers across the magnetization process of the 4f-3d
+heterometallic coordination polymer
+[{Dy(hfac)$_2$(CH$_3$OH)}$_2${Cu(dmg)(Hdmg)}$_2$]$_n$ (H$_2$dmg =
+dimethylglyoxime, Hhfac = 1,1,1,5,5,5-hexafluoropentane-2,4-dione) are
+theoretically examined using the symmetric isotropic spin-$1/2$
+Ising-Heisenberg orthogonal-dimer chain. The numerical results point to five
+possible ground states of the compound with three different degrees of the
+quantum entanglement within Cu$^{2+}$-Cu$^{2+}$. Besides the standard
+ferrimagnetic and saturated phases without quantum entanglement of Cu$^{2+}$
+ions, which are manifested in low-temperature magnetization curve as wide
+plateaus at the non-saturated magnetization $16.26\mu_{\rm B}$ and at the
+saturation value $20.82\mu_{\rm B}$, respectively, one also finds an
+intriguing
+singlet-like phase with just partial entanglement within Cu$^{2+}$-Cu$^{2+}$
+and two singlet phases with fully entangled Cu$^{2+}$-Cu$^{2+}$ dimers. The
+former quantum phase can be identified in the low-temperature magnetization
+process as very narrow intermediate plateau at the magnetization
+$9.27\mu_{\rm
+B}$ per unit cell, while the latter ones as zero magnetization plateau and
+intermediate plateau at the magnetization $18.54\mu_{\rm B}$. Non-monotonous
+temperature variations of the concurrence, through which the entanglement
+within cooper dimers is quantified, point to the possible temporary thermal
+activation of the entangled states of Cu$^{2+}$-Cu$^{2+}$ also above
+non-entangled ferrimagnetic and saturated phases.
+\\ ( https://arxiv.org/abs/2207.11943 ,  539kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12079
+Date: Mon, 25 Jul 2022 11:54:27 GMT   (2862kb)
+
+Title: Percolation in a simple cubic lattice with distortion
+Authors: Sayantan Mitra, Dipa Saha and Ankur Sensharma
+Categories: cond-mat.stat-mech
+Comments: 11 pages, 8 figures
+\\
+  Site percolation in a distorted simple cubic lattice is characterized
+numerically employing the Newman-Ziff algorithm. Distortion is administered
+in
+the lattice by systematically and randomly dislocating its sites from their
+regular positions. The amount of distortion is tunable by a parameter called
+the distortion parameter. In this model, two occupied neighboring sites are
+considered connected only if the distance between them is less than a
+predefined value called the connection threshold. It is observed that the
+percolation threshold always increases with distortion if the connection
+threshold is equal to or greater than the lattice constant of the regular
+lattice. On the other hand, if the connection threshold is less than the
+lattice constant, the percolation threshold first decreases, then increases
+steadily as distortion is increased. It is shown that the variation of the
+percolation threshold can be well explained by the change in the fraction of
+occupied bonds with distortion. The values of the relevant critical
+exponents
+of the transition strongly indicate that percolation in regular and
+distorted
+simple cubic lattices belong to the same universality class. It is also
+demonstrated that this model is intrinsically distinct from the site-bond
+percolation model.
+\\ ( https://arxiv.org/abs/2207.12079 ,  2862kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12091
+Date: Mon, 25 Jul 2022 12:04:21 GMT   (3717kb,D)
+
+Title: Fluctuations of entropy production of a run-and-tumble particle
+Authors: Prajwal Padmanabha, Daniel Maria Busiello, Amos Maritan, Deepak
+Gupta
+Categories: cond-mat.stat-mech
+Comments: 13 pages, 6 figures
+\\
+  Out-of-equilibrium systems continuously generate entropy, with its rate of
+production being a fingerprint of non-equilibrium conditions. In small-scale
+dissipative systems subject to thermal noise, fluctuations of entropy
+production are significant. Hitherto, mean and variance have been abundantly
+studied, even if higher moments might be important to fully characterize the
+system of interest. Here, we introduce a graphical method to compute any
+moment
+of entropy production for a generic discrete-state system. Then, we focus
+on a
+paradigmatic model of active particles, i.e., run-and-tumble dynamics, which
+resembles the motion observed in several microorganisms. Employing our
+framework, we compute the first three cumulants of the entropy production
+for a
+discrete version of this model. We also compare our analytical results with
+numerical simulations. We find that as the number of states increases, the
+distribution of entropy production deviates from a Gaussian. Finally, we
+extend
+our framework to a continuous state-space run-and-tumble model, using an
+appropriate scaling of the transition rates. The approach here presented
+might
+help uncover the features of non-equilibrium fluctuations of any current in
+biological systems operating out-of-equilibrium.
+\\ ( https://arxiv.org/abs/2207.12091 ,  3717kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12158
+Date: Mon, 25 Jul 2022 12:59:33 GMT   (45kb)
+
+Title: Electric double layers with modulated surface charge density: Exact
+2D
+  results
+Authors: Ladislav \v{S}amaj
+Categories: cond-mat.stat-mech
+Comments: 30 pages, 5 figures
+Journal-ref: J. Phys. A: Math. Theor. 55 (2022) 275001
+DOI: 10.1088/1751-8121/ac72d8
+\\
+  Electric double layers (EDL) with counterions only, say electrons with the
+elementary charge $-e$, in thermal equilibrium at the inverse temperature
+$\beta$ are considered. In particular, we study the effect of the surface
+charge modulation on the particle number density profile and the pressure.
+The
+mobile particles are constrained to the surface of a 2D cylinder and
+immersed
+in vacuum (no dielectric image charges). An EDL corresponds to the
+end-circle
+of the cylinder which carries a (fixed) position-dependent line charge
+density.
+The geometries of one single EDL and two EDLs at distance $d$ are
+considered;
+the particle density profile is studied for both geometries, the effective
+interaction of two EDLs is given by the particle pressure on either of the
+line
+walls. For any coupling constant $\Gamma\equiv \beta e^2 = 2\times {\rm
+integer}$, there exists a mapping of the 2D one-component Coulomb system
+onto
+the 1D interacting anticommuting-field theory defined on a chain of sites.
+Using specific transformation symmetries of anticommuting variables, the
+contact value theorem is generalized to the EDL with modulated line charge
+density. For the free-fermion coupling $\Gamma=2$ it is shown that, under
+certain conditions, the matrix of interaction strengths between
+anticommuting
+variables diagonalizes itself which permits one to obtain exact formulas for
+the particle density profile as well as the pressure. The obtained results
+confirm the previous indications of weak-coupling and Monte Carlo
+observations
+that the surface charge inhomogeneity implies an enhancement of the
+counterion
+density at the contact with the charged line and a diminution of the
+pressure
+between two parallel lines in comparison with the uniformly charged ones
+(with
+the same mean charge densities).
+\\ ( https://arxiv.org/abs/2207.12158 ,  45kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12270
+Date: Mon, 25 Jul 2022 15:43:39 GMT   (11446kb)
+
+Title: How criticality meets bifurcation in compressive failure of
+disordered
+  solids
+Authors: Ashwij Mayya, Estelle Berthier, Laurent Ponson
+Categories: cond-mat.stat-mech cond-mat.soft physics.data-an physics.geo-ph
+Comments: 29 pages, 10 figures including the supplementary information
+\\
+  Continuum mechanics describes compressive failure as a standard
+bifurcation
+in the response of a material to an increasing load: damage, which initially
+grows uniformly in the material, localizes within a thin band at failure.
+Yet,
+experiments recording the acoustic activity preceding localization evidence
+power-law distributed failure precursors of increasing size, suggesting that
+compressive failure is a critical phenomenon. We examine here this apparent
+contradiction by probing the spatial organization of the damage activity and
+its evolution until localization during compression experiments of 2D
+cellular
+solids. The intermittent damage evolution measured in our experiments is
+adequately described by a non-stationary depinning equation derived from
+damage
+mechanics and reminiscent of critical phenomena. In this description,
+precursors are damage cascades emerging from the interplay between the
+material's disorder and the long-range stress redistributions following
+individual damage events. Yet, the divergence of their characteristic size
+close to failure, which we observe in our experiments, is not the signature
+of
+a transition towards criticality. Instead, the system remains at a fixed
+distance to the critical point at all stages of the damage evolution. The
+divergence results from the progressive loss of stability of the material
+as it
+is driven towards localization. Thus, our study shows that compressive
+failure
+is a standard bifurcation for which the material disorder plays a marginal
+role. It also shows that precursory activity constitute by-products of the
+evolution towards localization and can serve to build a predictive method to
+assess the residual lifetime of structures.
+\\ ( https://arxiv.org/abs/2207.12270 ,  11446kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12329
+Date: Mon, 25 Jul 2022 16:40:17 GMT   (1103kb,D)
+
+Title: Time to reach the maximum for a stationary stochastic process
+Authors: Francesco Mori, Satya N. Majumdar, Gregory Schehr
+Categories: cond-mat.stat-mech cond-mat.soft
+Comments: 57 pages, 19 figures. This is a longer version of
+arXiv:2104.07346,
+  published in Europhysics Letters
+\\
+  We consider a one-dimensional stationary time series of fixed duration
+$T$.
+We investigate the time $t_{\rm m}$ at which the process reaches the global
+maximum within the time interval $[0,T]$. By using a path-decomposition
+technique, we compute the probability density function $P(t_{\rm m}|T)$ of
+$t_{\rm m}$ for several processes, that are either at equilibrium (such as
+the
+Ornstein-Uhlenbeck process) or out of equilibrium (such as Brownian motion
+with
+stochastic resetting). We show that for equilibrium processes the
+distribution
+of $P(t_{\rm m}|T)$ is always symmetric around the midpoint $t_{\rm
+m}=T/2$, as
+a consequence of the time-reversal symmetry. This property can be used to
+detect nonequilibrium fluctuations in stationary time series. Moreover, for
+a
+diffusive particle in a confining potential, we show that the scaled
+distribution $P(t_{\rm m}|T)$ becomes universal, i.e., independent of the
+details of the potential, at late times. This distribution $P(t_{\rm m}|T)$
+becomes uniform in the "bulk" $1\ll t_{\rm m}\ll T$ and has a nontrivial
+universal shape in the "edge regimes" $t_{\rm m}\to0$ and $t_{\rm m} \to T$.
+Some of these results have been announced in a recent Letter [Europhys.
+Lett.
+{\bf 135}, 30003 (2021)].
+\\ ( https://arxiv.org/abs/2207.12329 ,  1103kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12390
+Date: Mon, 25 Jul 2022 17:56:39 GMT   (1930kb,D)
+
+Title: Many-body quantum chaos and emergence of Ginibre ensemble
+Authors: Saumya Shivam, Andrea De Luca, David A. Huse, Amos Chan
+Categories: cond-mat.stat-mech cond-mat.str-el hep-th quant-ph
+Comments: 7+16 pages, 2+12 figures
+\\
+  We establish a connection between many-body quantum chaotic (MBQC) systems
+and the Ginibre random matrix ensemble (GinUE) - namely that non-Hermitian
+GinUE behaviors emerge in spatially-extended MBQC systems in the space
+direction, just as Hermitian random matrix behaviours emerge in MBQC
+systems in
+the time direction. We demonstrate the emergence of GinUE firstly in
+translational invariant (TI) MBQC systems, which can be associated with dual
+transfer matrices with complex-valued spectra, before generalizing to
+spatially-random systems. We argue and demonstrate that the dual spectra of
+TI
+MBQC systems necessarily have non-trivial and universal correlations due to
+the
+existence of a linear ramp in the spectral form factor (SFF). We show that,
+firstly, the spectral statistics of the dual spectra, probed by the
+dissipative
+spectral form factor and spacing distribution, falls under the universality
+class of the GinUE, and in particular displays level repulsion in the
+complex
+plane. Secondly, we obtain an exact analytical expression of SFF for the
+GinUE,
+and show that it universally describes the SFF of TI MBQC systems in the
+scaling limit where $t$ and $L$ are large, while the ratio between $L$ and
+$L_{\mathrm{Th}}$, the many body Thouless length is fixed. Thirdly, we
+propose
+variations of Ginibre models accounting for time periodicity, such that the
+SFF
+of Floquet MBQC (with or without TI) can be analytically described, thereby
+removing the necessity of TI for the emergence of GinUE. Lastly, we remark
+that
+locality and the many-body nature of MBQC systems are required for the
+emergence of the GinUE in large system sizes.
+\\ ( https://arxiv.org/abs/2207.12390 ,  1930kb)
+%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-
+------------------------------------------------------------------------------
+\\
+arXiv:2207.11261 (*cross-listing*)
+Date: Fri, 22 Jul 2022 18:00:00 GMT   (12406kb,D)
+
+Title: Thermalization and chaos in a 1+1d QFT
+Authors: Luca V. Delacretaz, A. Liam Fitzpatrick, Emanuel Katz, Matthew T.
+  Walters
+Categories: hep-th cond-mat.stat-mech cond-mat.str-el
+Comments: 16 pages, 17 figures
+Report-no: EFI 22-7
+\\
+  We study aspects of chaos and thermodynamics at strong coupling in a
+scalar
+model using LCT numerical methods. We find that our eigenstate spectrum
+satisfies Wigner-Dyson statistics and that the coefficients describing
+eigenstates in our basis satisfy Random Matrix Theory (RMT) statistics. At
+weak
+coupling, though the bulk of states satisfy RMT statistics, we find several
+scar states as well. We then use these chaotic states to compute the
+equation
+of state of the model, obtaining results consistent with Conformal Field
+Theory
+(CFT) expectations at temperatures above the scale of relevant
+interactions. We
+also test the Eigenstate Thermalization Hypothesis by computing the
+expectation
+value of local operators in eigenstates, and check that their behavior is
+consistent with thermal CFT values at high temperatures. Finally, we compute
+the Spectral Form Factor (SFF), which has the expected behavior associated
+with
+the equation of state at short times and chaos at long times. We also
+propose a
+new technique for extracting the connected part of the SFF without the need
+of
+disorder averaging by using different symmetry sectors.
+\\ ( https://arxiv.org/abs/2207.11261 ,  12406kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.11307 (*cross-listing*)
+Date: Fri, 22 Jul 2022 19:30:42 GMT   (3923kb,D)
+
+Title: Non-Markovian modeling of non-equilibrium fluctuations and
+dissipation
+  in active viscoelastic biomatter
+Authors: Amir Abbasi, Roland R. Netz, Ali Naji
+Categories: cond-mat.soft cond-mat.mtrl-sci cond-mat.stat-mech
+physics.bio-ph physics.chem-ph
+Comments: 6 pages, 2 figures; supplemental material (16 pages, 5 figures) is
+  appended
+\\
+  Based on a Hamiltonian that incorporates the elastic coupling between a
+tracer and active particles, we derive a generalized Langevin model for the
+non-equilibrium mechanical response of active viscoelastic biomatter. Our
+model
+accounts for the power-law viscoelastic response of the embedding polymeric
+network as well as for the non-equilibrium energy transfer between active
+and
+tracer particles. Our analytical expressions for the frequency-dependent
+response function and the positional autocorrelation function agree nicely
+with
+experimental data for red blood cells and actomyosin networks with and
+without
+ATP. The fitted effective active-particle temperature, elastic constants and
+effective friction coefficients of our model allow straightforward physical
+interpretation.
+\\ ( https://arxiv.org/abs/2207.11307 ,  3923kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.11491 (*cross-listing*)
+Date: Sat, 23 Jul 2022 10:50:59 GMT   (790kb,D)
+
+Title: Dimensional Reduction of Solvency Contagion Dynamics on Financial
+  Networks
+Authors: Gianmarco Ricciardi, Guido Montagna, Guido Caldarelli, Giulio
+Cimini
+Categories: physics.soc-ph cond-mat.stat-mech cs.SI q-fin.RM
+\\
+  Modelling systems with networks has been a powerful approach to tame the
+complexity of several phenomena. Unfortunately, such an approach is often
+made
+difficult by the large number of variables to take into consideration.
+Methods
+of dimensional reduction are useful tools to rescale a complex dynamical
+network down to a low-dimensional effective system and thus to capture the
+global features of the dynamics. Here we study the application of the
+degree-weighted and spectral reduction methods to an important class of
+dynamical processes on networks: the propagation of credit shocks within an
+interbank network, modelled according to the DebtRank algorithm. In
+particular
+we introduce an effective version of the dynamics, characterised by
+functions
+with continuous derivatives that can be handled by the dimensional
+reduction.
+We test the reduction methods against the full dynamical system in different
+interbank market settings: homogeneous and heterogeneous networks generated
+from state-of-the-art reconstruction methods as well as networks derived
+from
+empirical e-MID data. Our results indicate that, for proper choices of the
+bank
+default probability, reduction methods are able to provide reliable
+estimates
+of systemic risk in the market, with the spectral reduction better handling
+heterogeneous networks. Finally we provide new physical insights on the
+nature
+and working principles of dimensional reduction methods.
+\\ ( https://arxiv.org/abs/2207.11491 ,  790kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.11726 (*cross-listing*)
+Date: Sun, 24 Jul 2022 12:06:04 GMT   (2472kb,D)
+
+Title: Measurement-based cooling of many-body quantum systems
+Authors: Tarek A. Elsayed
+Categories: quant-ph cond-mat.stat-mech
+Comments: 6 pages, 3 figures
+\\
+  We introduce a new technique for cooling many-body quantum systems of
+unknown
+Hamiltonians to their ground states with a high fidelity. The technique
+works
+by switching on a strong field and applying a sequence of projective
+measurements and RF pulses to polarize the system along the direction of the
+external field before we adiabatically switch the field off. The evolution
+of
+the system towards its ground state is governed by the quantum adiabatic
+theorem. The proposed technique is particularly relevant to the field of NMR
+state preparation. We present numerical simulation results for the technique
+applied to quantum spin chains with long and short range interactions.
+\\ ( https://arxiv.org/abs/2207.11726 ,  2472kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12015 (*cross-listing*)
+Date: Mon, 25 Jul 2022 09:47:55 GMT   (2533kb,D)
+
+Title: Designing enhanced entropy binding in single-chain nano particles
+Authors: Lorenzo Rovigatti and Francesco Sciortino
+Categories: cond-mat.soft cond-mat.dis-nn cond-mat.stat-mech
+Comments: The submission also contains the SI
+Journal-ref: Phys. Rev. Lett. 129, 047801 (2022)
+DOI: 10.1103/PhysRevLett.129.047801
+\\
+  Single-chain nanoparticles (SCNP) are a new class of bio and soft-matter
+polymeric objects in which a fraction of the monomers are able to form
+equivalently intra- or inter-polymer bonds. Here we numerically show that a
+fully-entropic gas-liquid phase separation can take place in SCNP systems.
+Control over the discontinuous (first-order) change -- from a phase of
+independent diluted (fully-bonded) polymers to a phase in which polymers
+entropically bind to each other to form a (fully-bonded) polymer network --
+can
+be achieved by a judicious design of the patterns of reactive monomers along
+the polymer chain. Such a sensitivity arises from a delicate balance between
+the distinct entropic contributions controlling the binding.
+\\ ( https://arxiv.org/abs/2207.12015 ,  2533kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12123 (*cross-listing*)
+Date: Thu, 21 Jul 2022 16:51:47 GMT   (168kb,D)
+
+Title: Entropy-based random models for hypergraphs
+Authors: Fabio Saracco, Giovanni Petri, Renaud Lambiotte, Tiziano Squartini
+Categories: cs.SI cond-mat.stat-mech physics.data-an
+Comments: 5 pages, 2 figures, 1 table
+\\
+  Network science has traditionally focused on pairwise relationships while
+disregarding many-body interactions. Hypergraphs are promising mathematical
+objects for the description of the latter ones. Here, we propose null
+models to
+analyse hypergraphs that generalise the classical Erd\"os-R\'enyi and
+Configuration Model by randomising incidence matrices in a constrained
+fashion.
+After discussing them, we extend the definition of several network
+quantities
+to hypergraphs, derive their expected values and compare them with empirical
+ones, to detect significant deviations from random behaviours.
+\\ ( https://arxiv.org/abs/2207.12123 ,  168kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12209 (*cross-listing*)
+Date: Thu, 30 Jun 2022 03:29:35 GMT   (262kb,D)
+
+Title: Lagrangian Density Space-Time Deep Neural Network Topology
+Authors: Bhupesh Bishnoi
+Categories: quant-ph cond-mat.stat-mech cs.LG math.ST stat.ML stat.TH
+Comments: 29 pages, 2 figures
+MSC-class: 37J06, 37K06, 46N30, 68Q32, 70H06, 70H33, 81P13, 81P20
+ACM-class: J.2; G.3
+\\
+  As a network-based functional approximator, we have proposed a "Lagrangian
+Density Space-Time Deep Neural Networks" (LDDNN) topology. It is qualified
+for
+unsupervised training and learning to predict the dynamics of underlying
+physical science governed phenomena. The prototypical network respects the
+fundamental conservation laws of nature through the succinctly described
+Lagrangian and Hamiltonian density of the system by a given data-set of
+generalized nonlinear partial differential equations. The objective is to
+parameterize the Lagrangian density over a neural network and directly learn
+from it through data instead of hand-crafting an exact time-dependent
+"Action
+solution" of Lagrangian density for the physical system. With this novel
+approach, can understand and open up the information inference aspect of the
+"Black-box deep machine learning representation" for the physical dynamics
+of
+nature by constructing custom-tailored network interconnect topologies,
+activation, and loss/cost functions based on the underlying physical
+differential operators. This article will discuss statistical physics
+interpretation of neural networks in the Lagrangian and Hamiltonian domains.
+\\ ( https://arxiv.org/abs/2207.12209 ,  262kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12215 (*cross-listing*)
+Date: Mon, 25 Jul 2022 14:12:12 GMT   (3128kb,D)
+
+Title: Spinon confinement in the gapped antiferromagnetic XXZ spin-1/2 chain
+Authors: S. B. Rutkevich
+Categories: cond-mat.str-el cond-mat.stat-mech
+Comments: 47 pages, 18 figures
+\\
+  The infinite Heisenberg XXZ spin-(1/2) chain in the gapped
+antiferromagnetic
+regime has two degenerate vacua and kink topological excitations (which are
+also called spinons) interpolating between these vacua as elementary
+excitations. Application of an arbitrary weak staggered longitudinal
+magnetic
+field h induces a long-range attractive potential between two adjacent
+spinons
+leading to their confinement into 'meson' bound states. Exploiting the
+integrability of the XXZ model in the deconfined phase h = 0, we perform
+perturbative calculations of the energy spectra of the two-spinon bound
+states
+in the weak confinement regime at h \to +0, using the strength of the
+staggered
+magnetic field h as a small parameter. Both transverse and longitudinal
+dynamical structure factors of the local spin operators are calculated as
+well
+in the two-spinon approximation in the weak confinement regime to the
+leading
+order in h.
+\\ ( https://arxiv.org/abs/2207.12215 ,  3128kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12227 (*cross-listing*)
+Date: Mon, 25 Jul 2022 14:30:39 GMT   (13878kb,D)
+
+Title: Intermittency, fluctuations and maximal chaos in an emergent
+universal
+  state of active turbulence
+Authors: Siddhartha Mukherjee, Rahul K. Singh, Martin James, Samriddhi
+Sankar
+  Ray
+Categories: physics.flu-dyn cond-mat.stat-mech nlin.CD physics.bio-ph
+Comments: 8 Pages, 4 Figures
+\\
+  A hydrodynamic model of active, low Reynolds number suspensions, shows the
+emergence of an asymptotic state with a universal spectral scaling and
+non-Gaussian (intermittent) fluctuations in the velocity field. Such states
+arise when these systems are pushed beyond a critical level of activity and
+show features akin to high Reynolds number, inertial turbulence. We provide
+compelling numerical and analytical evidence for the existence of such a
+transition at a critical value of activity and further show that the
+maximally
+chaotic states are tied to this transition.
+\\ ( https://arxiv.org/abs/2207.12227 ,  13878kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.12354 (*cross-listing*)
+Date: Mon, 25 Jul 2022 17:11:30 GMT   (26kb,D)
+
+Title: Crosscap states in the XXX spin-1/2 spin chain
+Authors: Christopher Ekman
+Categories: hep-th cond-mat.stat-mech math-ph math.MP
+Comments: 17 pages
+\\
+  We consider integrable boundary states in the XXX spin-1/2 spin chain. We
+begin by briefly reviewing the algebraic Bethe Ansatz as well as integrable
+boundary states in spin chains. Then a recently discovered class of
+integrable
+states known as crosscap states is described and expanded. In these states
+each
+spin is entangled with its antipodal spin. We present a novel proof of the
+integrability of both a crosscap state that is known in the literature and
+one
+that has not previously been studied. We then use the machinery of the
+algebraic Bethe Ansatz to derive the overlaps between the crosscap states
+and
+off-shell Bethe states.
+\\ ( https://arxiv.org/abs/2207.12354 ,  26kb)
+%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%
+------------------------------------------------------------------------------
+\\
+arXiv:2204.09170
+replaced with revised version Fri, 22 Jul 2022 18:47:54 GMT   (285kb,D)
+
+Title: The regulator dependence in the functional renormalization group: a
+  quantitative explanation
+Authors: Gonzalo De Polsi, Nicol\'as Wschebor
+Categories: cond-mat.stat-mech hep-th
+Comments: 6 pages, 2 figures, accepted in Physical Review E
+\\ ( https://arxiv.org/abs/2204.09170 ,  285kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2205.08816
+replaced with revised version Mon, 25 Jul 2022 12:32:35 GMT   (1851kb)
+
+Title: Anomalous ballistic scaling in the tensionless or inviscid
+  Kardar-Parisi-Zhang equation
+Authors: Enrique Rodriguez-Fernandez, Silvia N. Santalla, Mario Castro, and
+  Rodolfo Cuerno
+Categories: cond-mat.stat-mech nlin.AO physics.data-an physics.flu-dyn
+quant-ph
+Comments: 9 pages, 8 figures, Physical Review E (in press, 2022)
+\\ ( https://arxiv.org/abs/2205.08816 ,  1851kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2205.10273
+replaced with revised version Mon, 25 Jul 2022 10:49:45 GMT   (315kb,D)
+
+Title: Fluctuations and first-passage properties of systems of Brownian
+  particles with reset
+Authors: Ohad Vilk, Michael Assaf and Baruch Meerson
+Categories: cond-mat.stat-mech math.PR physics.comp-ph
+Comments: 11 pages, 11 figures
+\\ ( https://arxiv.org/abs/2205.10273 ,  315kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2206.09849
+replaced with revised version Mon, 25 Jul 2022 12:21:49 GMT   (309kb,D)
+
+Title: Quantum Thermodynamic Uncertainty Relations, Generalized Current
+  Fluctuations and Nonequilibrium Fluctuation-Dissipation Inequalities
+Authors: Daniel Reiche, Jen-Tsung Hsiang, Bei-Lok Hu
+Categories: cond-mat.stat-mech physics.atom-ph quant-ph
+Comments: 24 pages, 3 figures
+Journal-ref: Entropy 2022, 24(8), 1016
+DOI: 10.3390/e24081016
+\\ ( https://arxiv.org/abs/2206.09849 ,  309kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.08496
+replaced with revised version Sun, 24 Jul 2022 08:45:28 GMT   (7kb)
+
+Title: Thermodynamic-kinetic uncertainty relation: properties and an
+  information-theoretic interpretation
+Authors: Tomohiro Nishiyama
+Categories: cond-mat.stat-mech cs.IT math.IT
+Comments: 7 pages
+\\ ( https://arxiv.org/abs/2207.08496 ,  7kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.08695
+replaced with revised version Sun, 24 Jul 2022 15:40:20 GMT   (174kb,D)
+
+Title: Positing the problem of stationary distributions of active particles
+as
+  third-order differential equation
+Authors: Derek Frydel
+Categories: cond-mat.stat-mech cond-mat.soft
+\\ ( https://arxiv.org/abs/2207.08695 ,  174kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1812.03442 (*cross-listing*)
+replaced with revised version Mon, 25 Jul 2022 14:01:02 GMT   (1257kb,D)
+
+Title: A local algorithm and its percolation analysis of bipartite
+$z$-matching
+  problem
+Authors: Jin-Hua Zhao
+Categories: physics.soc-ph cond-mat.stat-mech
+Comments: 13 pages, 6 figures, and 2 tables
+\\ ( https://arxiv.org/abs/1812.03442 ,  1257kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2006.04458 (*cross-listing*)
+replaced with revised version Mon, 25 Jul 2022 10:19:10 GMT   (231kb)
+
+Title: Energy correlations of non-integrable Ising models: The scaling
+limit in
+  the cylinder
+Authors: Giovanni Antinucci, Alessandro Giuliani and Rafael Leon Greenblatt
+Categories: math-ph cond-mat.stat-mech math.MP
+Comments: 89 pages. Substantial revisions throughout the manuscript
+\\ ( https://arxiv.org/abs/2006.04458 ,  231kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2104.09723
+replaced with revised version Sun, 24 Jul 2022 03:36:35 GMT   (1199kb)
+
+Title: Transport and Diffusion Enhancement in Experimentally Realized
+  Non-Gaussian Correlated Ratchets
+Authors: Govind Paneru, Jin Tae Park, and Hyuk Kyu Pak
+Categories: cond-mat.soft cond-mat.stat-mech
+Journal-ref: J. Phys. Chem. Lett. 2021, 12, 45, 11078-11084
+DOI: 10.1021/acs.jpclett.1c03037
+\\ ( https://arxiv.org/abs/2104.09723 ,  1199kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2108.11970
+replaced with revised version Sun, 24 Jul 2022 11:50:44 GMT   (5518kb,D)
+
+Title: The Anomalous Transport of Tracers in Active Baths
+Authors: Omer Granek, Yariv Kafri, Julien Tailleur
+Categories: cond-mat.soft cond-mat.stat-mech
+Comments: 15 pages, 6 figures, v2: more results added
+Journal-ref: Physical Review Letters 129, 038001 (2022)
+DOI: 10.1103/PhysRevLett.129.038001
+\\ ( https://arxiv.org/abs/2108.11970 ,  5518kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2201.06894 (*cross-listing*)
+replaced with revised version Sun, 24 Jul 2022 16:43:35 GMT   (434kb,D)
+
+Title: Current-induced inverse symmetry breaking and asymmetric critical
+  phenomena at current-driven tricritical point
+Authors: Masataka Matsumoto, Shin Nakamura
+Categories: hep-th cond-mat.stat-mech cond-mat.str-el nucl-th
+Comments: v1: 10 pages, 8 figures; v2: 9 pages, 8 figures, version
+published in
+  PRD
+Report-no: RIKEN-iTHEMS-Report-22
+Journal-ref: Phys. Rev. D 106, 026006 (2022)
+DOI: 10.1103/PhysRevD.106.026006
+\\ ( https://arxiv.org/abs/2201.06894 ,  434kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2203.16307
+replaced with revised version Mon, 25 Jul 2022 06:56:16 GMT   (807kb,D)
+
+Title: Information spreading and scrambling in disorder-free multiple-spin
+  interacting models
+Authors: Yoshihito Kuno, Takahiro Orito, Ikuo Ichinose
+Categories: cond-mat.dis-nn cond-mat.stat-mech quant-ph
+Comments: 14 pages, 14 figures, accepted for publication in PRA
+\\ ( https://arxiv.org/abs/2203.16307 ,  807kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2204.07563
+replaced with revised version Fri, 22 Jul 2022 20:15:51 GMT   (289kb)
+
+Title: Geometric integration of classical spin dynamics via a mean-field
+  Schr\"odinger equation
+Authors: David Dahlbom, Hao Zhang, Cole Miles, Xiaojian Bai, Cristian D.
+  Batista, Kipton Barros
+Categories: cond-mat.str-el cond-mat.stat-mech physics.comp-ph
+\\ ( https://arxiv.org/abs/2204.07563 ,  289kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2205.10905 (*cross-listing*)
+replaced with revised version Sun, 24 Jul 2022 05:34:41 GMT   (72kb,D)
+
+Title: On the classification of UV completions of integrable $T \bar{T}$
+  deformations of CFT
+Authors: Changrim Ahn and Andr\'e LeClair
+Categories: hep-th cond-mat.stat-mech math-ph math.MP
+Comments: 21 pages, 3 figures; references added, several minor corrections
+  made, matches version accepted by JHEP
+\\ ( https://arxiv.org/abs/2205.10905 ,  72kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2206.04171
+replaced with revised version Mon, 25 Jul 2022 11:46:31 GMT   (357kb,D)
+
+Title: Probing shapes of microbes using liquid crystal textures
+Authors: Ajit M. Srivastava
+Categories: cond-mat.soft cond-mat.other cond-mat.stat-mech
+Comments: 12 pages, 7 figures, Electric field interaction term corrected,
+  discussion improved/corrected, e.g. for intensity of light in the
+  cross-polarizer setup
+\\ ( https://arxiv.org/abs/2206.04171 ,  357kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2206.14312 (*cross-listing*)
+replaced with revised version Sat, 23 Jul 2022 09:35:24 GMT   (2602kb,D)
+
+Title: Quantifying the complexity and similarity of chess openings using
+online
+  chess community data
+Authors: Giordano De Marzo and Vito DP Servedio
+Categories: physics.soc-ph cond-mat.stat-mech
+\\ ( https://arxiv.org/abs/2206.14312 ,  2602kb)
+------------------------------------------------------------------------------
+\\
+arXiv:2207.10116
+replaced with revised version Sat, 23 Jul 2022 09:36:05 GMT   (1657kb,D)
+
+Title: Conductance of concentrated electrolytes: multivalency and the Wien
+  effect
+Authors: Yael Avni, David Andelman and Henri Orland
+Categories: cond-mat.soft cond-mat.mtrl-sci cond-mat.stat-mech
+physics.chem-ph
+Comments: 17 pages, 11 figures
+\\ ( https://arxiv.org/abs/2207.10116 ,  1657kb)
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---
+For subscribe options to combined physics archives,
+e-mail To: physics@arxiv.org, Subject: subscribe
+-----------------------------------------------------------------------------
+For help on viewing and making submissions, see http://arxiv.org/help/
