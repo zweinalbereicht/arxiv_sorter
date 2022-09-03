@@ -1,9 +1,19 @@
 # just add the keywords in this file
 [selection]
 authors = [
-    "Miles",
-    "Milex",
+    "majumdar",
+    "schehr",
+    "benichou",
+    "grabsch",
+    "metzler",
+    "klinger",
+    "bruyne",
+    "metzler",
 ]
 titles = [
     "integrable"
+    "brownian"
+    "loop"
+    "jump proce"
+    "first pass"
 ]

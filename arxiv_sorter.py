@@ -164,8 +164,8 @@ def main():
                 print('no relevant articles')
 
         #trash all emails
-        for m in messages:
-            _ = service.users().messages().trash(userId='me',id=m['id']).execute()
+        #for m in messages:
+        #    _ = service.users().messages().trash(userId='me',id=m['id']).execute()
 
 
     except HttpError as error:
