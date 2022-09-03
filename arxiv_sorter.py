@@ -9,6 +9,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 # If modifying these scopes, delete the file token.json.
+import email
 from email.message import EmailMessage
 # largest possible scope, necessary to delete emails.
 SCOPES = ['https://mail.google.com/']
@@ -37,7 +38,7 @@ def retrieve_unread_arxiv_email(service):
 
 def get_email_contents(service, message):
     results=service.users().messages().get(userId='me',id=message['id'],format='full').execute()
-    message_text = results['payload']['parts'][0]['body']['data']
+    message_text = results['payload']['body']['data']
     message_text = base64.b64decode(message_text).decode("utf-8")
     return message_text
 
@@ -154,18 +155,15 @@ def main():
                 if article.is_relevant(parsed_toml):
                     relevant_articles.append(article)
 
-            if len(relevant_articles)>0:
-                for article in relevant_articles:
-                    email_contents+=article.format()
+        if len(relevant_articles)>0:
+            for article in relevant_articles:
+                email_contents+=article.format()
 
-                send_email(email_contents,send_adress,service)
-
-            else : 
-                print('no relevant articles')
+            send_email(email_contents,send_adress,service)
 
         #trash all emails
-        #for m in messages:
-        #    _ = service.users().messages().trash(userId='me',id=m['id']).execute()
+        for m in messages:
+            _ = service.users().messages().trash(userId='me',id=m['id']).execute()
 
 
     except HttpError as error:
