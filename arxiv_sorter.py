@@ -1,6 +1,9 @@
 from __future__ import print_function
 
 import os.path
+import sendgrid
+import os
+from sendgrid.helpers.mail import *
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -12,7 +15,7 @@ from googleapiclient.errors import HttpError
 import email
 from email.message import EmailMessage
 # largest possible scope, necessary to delete emails.
-SCOPES = ['https://mail.google.com/']
+SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 
 #my own imports for string parsing
@@ -82,24 +85,19 @@ def parse_email_content(contents):
     arxiv_articles=[arxiv_article(id.split('\n')[1],t,a,c) for id,t,a,c in zip(arxiv_id,titles,authors,contents)]
     return arxiv_articles
 
-#sending an email
-def send_email(contents,send_adress,service):
+#sending an email with sendgrid
+def send_email(contents,sender_adress,receive_adress):
 
-    message = EmailMessage()
-    message.set_content(str(contents))
-
-    message['Subject'] = 'Daily ArXiv'
-    message['To'] = send_adress
-
-    # encoded message
-    encoded_message = base64.urlsafe_b64encode(message.as_bytes()).decode()
-
-    create_message = {
-        'raw': encoded_message
-    }
-    # pylint: disable=E1101
-    send_message = (service.users().messages().send(userId="me", body=create_message).execute())
-    print(F'Message Id: {send_message["id"]}')
+    sg = sendgrid.SendGridAPIClient(api_key=os.environ.get('SENDGRID_API_KEY'))
+    from_email = Email(sender_adress)
+    to_email = To(receive_adress)
+    subject = "Daily ArXiv"
+    content = Content("text/plain", contents)
+    mail = Mail(from_email, to_email, subject, content)
+    response = sg.client.mail.send.post(request_body=mail.get())
+    #print(response.status_code)
+    #print(response.body)
+    #print(response.headers)
    
 def main():
     """Shows basic usage of the Gmail API.
@@ -130,8 +128,10 @@ def main():
         parsed_toml = toml.load('sorter.toml')
 
         # adress to send to, specified in 'email_adress.txt' file
+        # the sender adress is the one needed from sendgrid
         with open('email_adress.txt') as f:
-            send_adress=f.readline()
+            sender_adress=f.readline()[0]
+            receive_adress=f.readline()[1]
 
 
         # treat emails
@@ -159,11 +159,7 @@ def main():
             for article in relevant_articles:
                 email_contents+=article.format()
 
-            send_email(email_contents,send_adress,service)
-
-        #trash all emails
-        for m in messages:
-            _ = service.users().messages().trash(userId='me',id=m['id']).execute()
+            send_email(email_contents,sender_adress,receive_adress)
 
 
     except HttpError as error:

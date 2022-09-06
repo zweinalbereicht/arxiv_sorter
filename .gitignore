@@ -2,3 +2,5 @@ token.json
 email_adress.txt
 *.txt
 *.json
+sendgrid.env
+*.mail
