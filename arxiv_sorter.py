@@ -14,6 +14,7 @@ from googleapiclient.errors import HttpError
 # If modifying these scopes, delete the file token.json.
 import email
 from email.message import EmailMessage
+import subprocess
 # largest possible scope, necessary to delete emails.
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
@@ -98,10 +99,28 @@ def send_email(contents,sender_adress,receive_adress):
     #print(response.status_code)
     #print(response.body)
     #print(response.headers)
+
+#sending email with himalaya
+def send_email_himalaya(contents, send_adress,receive_adress):
+    mail_template = f"""Content-Type: text/plain; charset=utf-8
+From: 'jeremie.klinger.pro' <{send_adress}>
+To: <{receive_adress}>
+Subject: Daily News
+
+Hey, here's your daily scientific news ! 
+
+{contents}
+"""
+    with open('template.mail','w') as f:
+        f.write(mail_template)
+
+    subprocess.run(["himalaya","send","<","template.mail"])
+
    
 def main():
     """Shows basic usage of the Gmail API.
     Lists the user's Gmail labels.
+    """
     """
     creds = None
     # The file token.json stores the user's access and refresh tokens, and is
@@ -123,6 +142,7 @@ def main():
 
     service = build('gmail', 'v1', credentials=creds)
 
+    """
     try:
         # load toml setup file
         parsed_toml = toml.load('sorter.toml')
@@ -130,10 +150,12 @@ def main():
         # adress to send to, specified in 'email_adress.txt' file
         # the sender adress is the one needed from sendgrid
         with open('email_adress.txt') as f:
-            sender_adress=f.readline()[0]
-            receive_adress=f.readline()[1]
+            sender_adress=f.readline()[:-1]
+            receive_adress=f.readline()[:-1]
+        print(sender_adress)
 
 
+        """
         # treat emails
         messages = retrieve_unread_arxiv_email(service)
 
@@ -159,10 +181,15 @@ def main():
             for article in relevant_articles:
                 email_contents+=article.format()
 
-            send_email(email_contents,sender_adress,receive_adress)
+            #send_email(email_contents,sender_adress,receive_adress)
+        """
+
+        email_contents="Salut Jerem, voici ton daily load of scientific news :)\n\n\n"
+        send_email_himalaya(email_contents, sender_adress, receive_adress)
 
 
     except HttpError as error:
+        print('lala')
         # TODO(developer) - Handle errors from gmail API.
         print(f'An error occurred: {error}')
 
