@@ -8,7 +8,11 @@ authors = [
     "metzler",
     "klinger",
     "bruyne",
+    "besse",
     "metzler",
+    "belitz",
+    "doussal",
+    "krapivsky",
 ]
 titles = [
     "integrable",
@@ -16,4 +20,5 @@ titles = [
     "loop",
     "jump proce",
     "first pass",
+    "absorbing",
 ]

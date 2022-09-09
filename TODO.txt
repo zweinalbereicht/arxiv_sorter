@@ -1,6 +1,0 @@
-- Basic authentification is working
-
-- need to code the logic of arxiv emails
-    - retrieval
-    - sorting content 
-    - send custom email.
