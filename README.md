@@ -19,4 +19,5 @@ The results are then sent back to the user's email adress of choice, via the **s
 sengrid_sender_adress@example.com
 recipient_adress@example.com
 ```
+Personnaly, I've put the execution script in my .bashrc and have it run once when I open the first daily instance of my terminal !  
 ### Enjoy 🔭
