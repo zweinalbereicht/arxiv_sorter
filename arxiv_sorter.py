@@ -29,7 +29,10 @@ class arxiv_article:
         return f'{self.id}\n\nDate : {self.date}\n\nTitle : {self.title}\n\nSummary : {self.contents}\n\nAuthors : {self.authors}'
 
 def retrieve_latest_articles(latest_id):
-    cat="cond-mat.stat-mech"
+    categories=["cond-mat.stat-mech","cs.LG"]
+    # search across all categories
+    cat = "+".join(categories)
+
     
     #by default we will query 50 articles 
     api_url = f"http://export.arxiv.org/api/query?search_query=cat:{cat}&sortBy=submittedDate&sortOrder=descending&max_results=50"
