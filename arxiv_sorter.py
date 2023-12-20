@@ -29,15 +29,18 @@ class arxiv_article:
         return f'{self.id}\n\nDate : {self.date}\n\nTitle : {self.title}\n\nSummary : {self.contents}\n\nAuthors : {self.authors}'
 
 def retrieve_latest_articles(latest_id):
-    categories=["cond-mat.stat-mech","cs.LG"]
+    categories=["cond-mat.stat-mech","cs.LG","math-ph"]
     # search across all categories
     cat = "+".join(categories)
+    cat = "cond-mat.stat-mech"
 
     
     #by default we will query 50 articles 
     api_url = f"http://export.arxiv.org/api/query?search_query=cat:{cat}&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    # print(api_url)
     response = requests.get(api_url)
     parsed_response=feedparser.parse(response.text)
+    # print(parsed_response)
 
     latest_articles = []
     for entry in parsed_response.entries:
